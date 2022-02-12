@@ -1,0 +1,63 @@
+:root{
+    --primary-color: #f2673a;
+    --primary-hover: #e0582b;
+    --secondary-color: rgb(37, 37, 37);
+    --secondary-hover: rgb(49, 49, 49);
+    --font-primary-color: black;
+    --font--secondary-color: rgb(58, 58, 58);
+    --lg-color: white;
+    --body-background-color: #fdf8d6;
+    --light-gray: rgb(184, 182, 182);
+    --success-color : green;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--body-background-color);
+    color: var(--font-primary-color);
+    font-size: 16px;
+    list-style: 1.5;
+}
+a{
+    color: var(--font--secondary-color);
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+/* button */
+.btn{
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 0.5rem ;
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+.btn:hover{
+    background-color: var(--primary-hover);
+}
+.btn-link{
+    color: var(--lg-color);
+}
+.secondary{
+    color:var(--primary-color);
+    background-color: white; 
+    border: 1px solid var(--primary-color);
+}
+.secondary:hover{
+    color: white;
+}
