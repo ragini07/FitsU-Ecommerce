@@ -9,6 +9,7 @@
     --body-background-color: #fdf8d6;
     --light-gray: rgb(184, 182, 182);
     --success-color : green;
+    --yellow-color : rgb(255, 180, 0);
 }
 
 *{
@@ -60,4 +61,7 @@ ul{
 }
 .secondary:hover{
     color: white;
+}
+.filled-star{
+    color: var(--yellow-color);
 }
