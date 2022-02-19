@@ -80,9 +80,11 @@
     position: relative;
 }
 .res-img{
-    width: 100%;
+    /* width: 100%; 
     max-width: 14rem;
-    height: 15rem;
+    height: 15rem; */
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
   }
 .text-container{
