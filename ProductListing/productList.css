@@ -127,6 +127,9 @@
 .product-btn{
     width: 90%;
 }
+.product-btn *{
+    padding-right: 0.8rem;
+}
 .card-badge-left{
     background-color: rgb(136, 87, 22);
     position: absolute;
@@ -183,6 +186,9 @@
 }
 .filter-category-mobile *{
     margin-left: auto;
+}
+.icon-liked{
+    color: var(--primary-color);
 }
 @media (max-width:950px){
     .side-content{
