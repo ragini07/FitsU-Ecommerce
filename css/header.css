@@ -44,7 +44,6 @@
         opacity: 0.9;
         padding: 30px;
         transform: translateX(-500px);
-
         border-right: 1px solid var(--secondary-color) ;
         }
         .main-nav ul.main-menu.show{
