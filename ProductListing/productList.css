@@ -76,8 +76,11 @@
     width: 100%;
     background-color: var(--lg-color);
     cursor: pointer;
-    box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.25);
     position: relative;
+}
+.card-vertical:hover{
+    box-shadow: 6px 6px 8px #888888;
 }
 .res-img{
     width: 100%; 
