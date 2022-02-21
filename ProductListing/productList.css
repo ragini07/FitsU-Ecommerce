@@ -148,11 +148,7 @@
     color: var(--lg-color);
     font-weight: 540;
 }
-.btn-disabled{
-    opacity: 0.8rem;
-    pointer-events: none;
-    cursor:auto;
-}
+
 
 .rating-badge-number{
     font-size: 0.8rem;
@@ -193,6 +189,16 @@
 .icon-liked{
     color: var(--primary-color);
 }
+/* out of stock */
+button:disabled{
+    /* cursor: not-allowed; */
+    background-color: var(--light-gray);
+    cursor: auto;
+}
+button:disabled:hover{
+    background-color: var(--light-gray);
+}
+
 @media (max-width:950px){
     .side-content{
         width: 20%;
