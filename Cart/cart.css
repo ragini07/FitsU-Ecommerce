@@ -83,11 +83,11 @@
     border-radius: 50%;
     border: 1px solid var(--light-gray);
     background-color: var(--lg-color);
-    padding: 4px;
     color : var(--secondary-color)
 }
 .btn-icon:hover{
     background-color: var(--light-gray);
+    cursor: pointer;
 }
 .product-qty{
     border: 1px solid var(--light-gray);
