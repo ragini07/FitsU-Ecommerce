@@ -19,6 +19,8 @@
 * [WishList Management](https://fitsu-ecommerce.netlify.app/wishlist/wishlist)
 * [Authentication](https://fitsu-ecommerce.netlify.app/auth/login)
 * [Single Product Page](https://fitsu-ecommerce.netlify.app/product/product.html)
+* [Address Management](https://fitsu-ecommerce.netlify.app/addresspage/address)
+* [User Profilet](https://fitsu-ecommerce.netlify.app/addresspage/address)
 
 
 
