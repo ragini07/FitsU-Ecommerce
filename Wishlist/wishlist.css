@@ -10,7 +10,7 @@
 }
 .title-center{
     text-align: center;
-    
+    margin-bottom: 2rem;
 }
 @media (max-width:550px){
     .wishlist-container{
