@@ -9,7 +9,6 @@
  .center{
     text-align: center;
 }
-
 .tab {
     border-bottom: 3px solid var(--primary-color);
 }
@@ -22,7 +21,7 @@
     cursor: pointer;
     padding: 0.8rem 6rem;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 1rem;
 }
   
 .tab button:hover {
@@ -75,4 +74,14 @@
     margin: 0.5rem 0;
     height: 2rem;
     padding-left: 0.5rem;
+}
+@media (max-width: 600px) {
+    .modal-body{
+        width: 90%;
+    }
+}
+@media (max-width: 520px) {
+   .container-account{
+       width: 95%;
+   }
 }
