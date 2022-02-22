@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fitsu-ui-design.netlify.app/css/components.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/searchbar.css"> 
+    <link rel="stylesheet" href="./address.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="https://kit.fontawesome.com/70067cae33.js" crossorigin="anonymous"></script>
+    <title>FitsU-Cart</title>
+</head>
+<body>
+    
+    <div class="menu-btn"><i class="fas fa-bars fa-2x"></i></div>
+    <div class="container">
+        <!-- nav -->
+        <nav class="main-nav">
+            <img src="../images/logo.png" alt="Brand Logo">
+            <ul class="main-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+            <ul class="right-menu">
+                <li><a href="#">
+                    <i class="fas fa-search"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="fas fa-heart"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                </a></li>
+               
+                <li><a href="../Auth/login.html">
+                   Logout
+                </a></li>
+            </ul>
+        </nav>
+        <!-- searchbar -->
+        <!-- display when user clicks on searchicon -->
+        <div class="searchbar">
+            <input class="searchbar-input" type="text" class="search" placeholder="type to search">
+        </div>
+        <h2 class="center">Account</h2>
+        <div class="main-container">
+           
+        <div class="container-account">
+            <div class="tab">
+                <button class="tablinks active" onclick="openTab(event, 'Profile')">Profile</button>
+                <button class="tablinks" onclick="openTab(event, 'Address')">Address</button>
+            </div>
+              
+            <div id="Profile" class="tabcontent default-active">
+                <div class="sub-container">
+                    <div class="title">Name:</div>
+                    <div class="desc">Admin</div>
+                </div>
+                <div class="sub-container">
+                    <div class="title">Email:</div>
+                    <div class="desc">xyz@gmail.com</div>
+                </div>         
+                <button class="btn secondary">Log Out</button>
+            </div>
+
+            <div id="Address" class="tabcontent">
+                <h3>Addresses</h3>
+                <ul>
+                    <li class="list-stack">
+                        <div class="text-content">
+                            <h5>Ragini</h5>
+                            <p>Gandak road,67,Sakchi</p>
+                            <p>Jamshedpur</p>
+                            <p>India</p>
+                            <p>Pin : <span>841003</span></p>
+                            <p>Mobile : <span>9811342123</span></p>
+                        </div>
+                        <div class="cta-btn">
+                            <button class="btn">Edit</button>
+                            <button class="btn secondary">Remove</button>
+                        </div>
+                    </li>
+                    <li class="list-stack">
+                        <div class="text-content">
+                            <h5>Ragini</h5>
+                            <p>Gandak road,67,Sakchi</p>
+                            <p>Jamshedpur</p>
+                            <p>India</p>
+                            <p>Pin : <span>841003</span></p>
+                            <p>Mobile : <span>9811342123</span></p>
+                        </div>
+                        <div class="cta-btn">
+                            <button class="btn">Edit</button>
+                            <button class="btn secondary">Remove</button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="text-btn showBtn"><i class="fas fa-plus"></i>Add new address</button>
+            </div>
+
+            <div class="modal">
+                <div class="modal-body">
+                     <span class="cross close-modal"><i class="fas fa-times"></i></span>
+                     <div class="modal-title">ADD NEW ADDRESS</div>
+                     <div class="modal-content form-input">
+                        <input type="text" placeholder="Enter name">
+                        <input type="text" placeholder="Enter house,city">
+                        <input type="text" placeholder="Enter city">
+                        <input type="text" placeholder="Enter state">
+                        <input type="text" placeholder="Enter postal code">
+                        <input type="number" placeholder="Enter phone number">
+                     </div>
+                     <div class="buttons-div">
+                         <button class="btn secondary-btn close-modal">Save</button>
+                         <button class="btn">Cancel</button>
+                     </div>
+                </div>      
+
+           </div>
+              
+        </div>
+        
+            
+        </div>
+    </div>
+       
+        
+    </div>
+    <script src="./addressModal.js"></script>
+</body>
+</html>
