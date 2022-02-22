@@ -1,5 +1,5 @@
 
-# FitsU Quiz App
+# FitsU Ecommerce App
 
 
 
